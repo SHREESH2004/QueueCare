@@ -1,0 +1,8 @@
+queuecare/node_modules/
+queuecare/dist/
+queuecare/.env
+queuecare/.env.local
+queuecare/.env.*.local
+*.log
+.DS_Store
+Thumbs.db
