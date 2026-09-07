@@ -29,6 +29,34 @@
       "when": 1788787104368,
       "tag": "0003_minor_wolfsbane",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1788787600808,
+      "tag": "0004_misty_butterfly",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1788787902957,
+      "tag": "0005_cold_harrier",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1788788096929,
+      "tag": "0006_cuddly_scalphunter",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1788788158056,
+      "tag": "0007_illegal_random",
+      "breakpoints": true
     }
   ]
 }
