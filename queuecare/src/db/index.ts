@@ -1,0 +1,16 @@
+import "dotenv/config";
+import { drizzle } from "drizzle-orm/node-postgres";
+import { Pool } from "pg";
+
+const pool = new Pool({
+    connectionString: process.env.DATABASE_URL,
+});
+export async function connectDB() {
+    try {
+        await pool.connect();
+        console.log("PostgresQL connected");
+    } catch (error) {
+        console.error("PostgresQL connection failed");
+        process.exit(1);
+    }
+}
